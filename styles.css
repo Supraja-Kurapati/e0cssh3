@@ -1,0 +1,114 @@
+body{
+    background-color: gray;
+}
+
+.top{
+    text-align: center;
+    color:rgba(219, 76, 10, 0.911) ;
+    width: 400px;
+    height: 200px;
+background-color: white;
+position: relative;
+left: 380px;
+text-shadow: 2px 2px 2px rgba(219, 76, 10, 0.911);
+}
+input[type="number"]{
+    width: 80px;
+}
+.cont{
+    height: 600px;
+    border: 5px solid green;
+}
+.bx{
+    width: 250px;
+    height: 220px;
+    background-color: white;
+    text-shadow: 2px 1px 2px purple;
+    align-items: center;
+}
+.b1{
+    float: left;
+    margin-bottom: 120px;
+    text-align: center;
+
+}
+.b2{
+    background-image: url(./images.jpeg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: right;
+    margin-right: 30px;
+}
+.b3{
+    clear: left;
+    float: left;
+}
+.b4{
+    clear: right;
+    float: right;
+    margin-right: 30px;
+text-align: center;
+}
+.paren{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lowercontainer{
+    margin-top: 20px;
+    height: 500px;
+    width: 600px;
+    background-color: green;
+    border: 10px solid purple;
+}
+.head{
+    height: 50px;
+    text-align: center;  
+}
+.tablebox{
+    height: 200px;
+    width: 280px;
+    background-color: khaki;
+    margin: 5px;
+    word-break: keep-all;
+    word-wrap: break-word;
+    text-align: center;
+    padding: 5px;
+    font-style: italic;
+}
+.tb1{
+ float: left;
+}
+.tb2{
+    float: right;
+}
+.tb3{
+    clear: both;
+    width: 605px;
+}
+.fixbox{
+    height: 70px;
+    width: 400px;
+    position: fixed;
+    top: 450px;
+    left: 500px;
+    background-color: greenyellow;
+    font-size: 20px;
+    font-style: italic;
+    color: brown;
+padding: 10px;}
+.left{
+    width: 180px;
+    float: left;
+}
+.right{
+    float: right;
+}
+
+.cp{
+    border: 5px solid red;
+    border-radius: 20px;
+    box-shadow: 5px 5px purple ;
+
+}
